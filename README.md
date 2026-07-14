@@ -68,8 +68,6 @@ Hits every endpoint and prints the responses.
 ```
 ├── docker-compose.yml
 ├── .env
-├── Design.md                   # original spec
-├── DECISIONS.md               # design & concurrency rationale
 ├── backend/
 │   ├── Dockerfile
 │   ├── requirements.txt
@@ -97,7 +95,6 @@ Hits every endpoint and prints the responses.
 │           └── Ledger.jsx
 └── tests/
     ├── test_concurrency.py
-    └── smoke_test.sh
 ```
 
 ## Reset
