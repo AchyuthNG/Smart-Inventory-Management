@@ -4,7 +4,7 @@ from psycopg2.pool import ThreadedConnectionPool
 
 DATABASE_URL = os.environ.get(
     "DATABASE_URL",
-    "postgresql://schrute:beets123@localhost:5432/inventory",
+    "YOUR_DB_URL_HERE",
 )
 
 _pool: ThreadedConnectionPool | None = None
