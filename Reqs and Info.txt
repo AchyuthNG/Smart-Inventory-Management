@@ -1,0 +1,15 @@
+Smart Inventory Management System with Low-Stock Alerts
+•
+•
+•
+•
+Stack: React dashboard + FastAPI + PostgreSQL (with optional
+rule/ML-based demand forecasting)
+What to build: Track stock levels across products/warehouses, log
+inbound/outbound movements, and auto-flag low-stock or fast-
+depleting items via a Python service
+Architecture focus: Event-driven thinking, separation of the
+alerting/forecasting service from core CRUD inventory operations.
+Ideation angle: How would you make stock updates real-time across
+multiple users? WebSockets vs polling trade-offs? How do you
+handle concurrent updates to the same item (race conditions)?
