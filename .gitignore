@@ -25,3 +25,4 @@ pgdata/
 #other
 DECISIONS.md
 Design.md
+tests/smoke_test.sh
